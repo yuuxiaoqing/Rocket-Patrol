@@ -4,9 +4,9 @@ class Play extends Phaser.Scene{
     }
     preload(){
         //load images/tiles sprite
-        this.load.image('rocket', './assets/rocket.png');
-        this.load.image('spaceship', './assets/spaceship.png');
-        this.load.image('starfield', './assets/starfield.png');
+        this.load.image('rocket', 'assets/rocket.png');
+        this.load.image('spaceship', 'assets/spaceship.png');
+        this.load.image('starfield', 'assets/starfield.png');
     }
     create() {
     //override create() from phaser, which is blank
